@@ -4,13 +4,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {  ademi, bms, bson, coach, cryptoL, DefiQ, dehkunle, dfantom, feyi, noble, ohjay, prudent, quiv, sarah, xeus } from '@/public/idolos';
 
 const HeroRight = () => {
-    const image =[
+    const images =[
         {
-            image: xeus,
-            name: 'image1'
+            image: '/xeus.png',
+            name:'image1'
         },
         {
-            image: coach,
+            image: '/idolos/c-coach.png',
             name: 'image1'
         },
         {
@@ -69,23 +69,24 @@ const HeroRight = () => {
 
     return (
         <div className='relative'>
-            <div className='absolute w-full h-32'>
+            <div >
                 <Carousel
                 autoPlay
                 infiniteLoop
                 showStatus={false}
                 showIndicators={false}
                 showThumbs={false}
-                interval={3000}>
-                    {image.map((item,i) =>(
+                showArrows={false}
+                interval={2000}>
+                    {images.map((item,i) =>(
                         <div key={i}>
-                            <Image src={item.image} alt={item.name} />
+                            <Image src={item.image} alt={item.name} width={400} height={400}/>
                         </div>
                     ))}
                 </Carousel>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default HeroRight
+export default HeroRight;

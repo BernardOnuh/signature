@@ -24,8 +24,7 @@ export default function Home() {
         </div>
         <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          {/*<Hero />*/}
-          <HeroRight></HeroRight>
+          <Hero />
         </div>
         </div>
       </div>

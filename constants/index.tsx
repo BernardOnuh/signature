@@ -4,16 +4,16 @@ export const navLinks = [
       title: "Home",
     },
     {
-      id: "features",
-      title: "Features",
+      id: "my nft",
+      title: "My NFT",
     },
     {
-      id: "product",
-      title: "Product",
+      id: "sig mint",
+      title: "Sig Mint",
     },
     {
-      id: "clients",
-      title: "Clients",
+      id: "Connect Wallet",
+      title: "Connect Wallet",
     },
   ];
   

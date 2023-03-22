@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import styles from '@/styles/style'
-
+import HeroRight from '../components/idolo'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -24,7 +24,8 @@ export default function Home() {
         </div>
         <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Hero />
+          {/*<Hero />*/}
+          <HeroRight></HeroRight>
         </div>
         </div>
       </div>

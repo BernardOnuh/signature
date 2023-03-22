@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav className='w-full flex py-6 justify-between items-center navbar'>
             <img 
-            src='/logo.svg'
+            src='/logo.png'
             alt='logo'
             className='w-[124px] h-[32]'
             />

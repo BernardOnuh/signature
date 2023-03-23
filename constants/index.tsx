@@ -35,23 +35,23 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: '/star.svg',
-    title: "Rewards",
+    icon: '/faucet.png',
+    title: "Get Mint Tokens",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Request for polygon mumbai tokens to mint the NFTs",  
   },
   {
     id: "feature-2",
-    icon: '/shield.svg',
-    title: "100% Secured",
+    icon: '/collection.png',
+    title: "Check Out Collection",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "You can check opensea to see the NFTs that have been minted and are for sale.",
   },
   {
     id: "feature-3",
-    icon: '/send.svg',
-    title: "Balance Transfer",
+    icon: '/recreate.png',
+    title: "Recreate",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "If you would like to recreate this head over to my github repo",
   },
 ];

@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import styles from '@/styles/style'
-import HeroRight from '../components/idolo'
-const inter = Inter({ subsets: ['latin'] })
+import Stats from '../components/Stats'
+import MyNFT from '../components/MyNFT'
+import SigMint from '../components/SigMint'
 
 export default function Home() {
   return (
@@ -26,6 +26,19 @@ export default function Home() {
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
+        </div>
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <MyNFT />
+            <SigMint/>
+            {/*<Business />
+            <Billing />
+            <CardDeal />
+            <Testimonials />
+            <Clients />
+            <CTA />
+            <Footer />*/}
+          </div>
         </div>
       </div>
     </>

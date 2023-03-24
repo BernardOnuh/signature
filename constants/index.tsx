@@ -33,6 +33,7 @@ export const features = [
     id: "feature-1",
     icon: '/faucet.png',
     title: "Get Mint Tokens",
+    href:'https://mumbaifaucet.com/',
     content:
       "Request for polygon mumbai tokens to mint the NFTs",  
   },
@@ -40,12 +41,14 @@ export const features = [
     id: "feature-2",
     icon: '/collection.png',
     title: "Check Out Collection",
+    href:'https://github.com/BernardOnuh/signature',
     content:
       "You can check opensea to see the NFTs that have been minted and are for sale.",
   },
   {
     id: "feature-3",
     icon: '/recreate.png',
+    href:'https://github.com/BernardOnuh/signature',
     title: "Recreate",
     content:
       "If you would like to recreate this head over to my github repo",

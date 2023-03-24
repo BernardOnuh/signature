@@ -27,7 +27,7 @@ const MyNFT = () =>  (
         </h2>
         <img src='/040.jpg' alt="idolo" className="w-[60%] h-[60%] rounded-md" />
   
-        <Button styles={`mt-10`} />
+        <Button />
       </div>
   
       <div className={`${layout.sectionImg} flex-col`}>

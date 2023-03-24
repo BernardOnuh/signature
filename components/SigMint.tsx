@@ -1,19 +1,18 @@
-import styles, { layout } from "../styles/style";
-import Button from "./Button";
+import styles, { layout } from "../styles/style"
+import Buttons from "./Buttons";
 
-const CardDeal = () => (
+const SigMint = () => (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Find a better card deal <br className="sm:block hidden" /> in few easy
-          steps.
+          Signature Mint <br className="sm:block hidden" /> 
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-          aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+          Signature mint as it name implies you would have to pass some requirement which is to have minted the
+          first set of NFT collection above.
         </p>
   
-        <Button styles={`mt-10`} />
+        <Buttons />
       </div>
   
       <div className={layout.sectionImg}>
@@ -22,5 +21,5 @@ const CardDeal = () => (
     </section>
   );
   
-  export default CardDeal;
+  export default SigMint;
   

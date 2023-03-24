@@ -1,11 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import styles from '@/styles/style'
-import Stats from '../components/Stats'
-import MyNFT from '../components/MyNFT'
-import SigMint from '../components/SigMint'
+import styles from '../styles/style'
+import {Navbar, Hero, MyNFT, SigMint} from '../components/index'
 
 export default function Home() {
   return (

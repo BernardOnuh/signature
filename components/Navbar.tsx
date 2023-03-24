@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { navLinks } from '../constants'
+import { ConnectWallet } from '@thirdweb-dev/react'
 
 const Navbar = () => {
     const [active, setActive] = useState('Home');
@@ -24,6 +25,11 @@ const Navbar = () => {
                     <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
                 ))}
+                <li
+                className='p-5 w-124'>
+                <ConnectWallet
+                accentColor='#33bbcf'/>
+                </li>
             </ul>
             <div className='sm:hidden flex flex-1 justify-end items-center'>
                 <img
@@ -49,6 +55,11 @@ const Navbar = () => {
                                     <a href={`#${nav.id}`}>{nav.title}</a>
                                 </li>
                             ))}
+                            <li
+                            className='p-5 w-124'>
+                                <ConnectWallet
+                                accentColor='#33bbcf'/>
+                            </li>
                         </ul>
 
                 </div>

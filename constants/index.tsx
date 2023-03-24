@@ -11,10 +11,6 @@ export const navLinks = [
       id: "sig mint",
       title: "Sig Mint",
     },
-    {
-      id: "Connect Wallet",
-      title: "Connect Wallet",
-    },
   ];
   
   export const stats = [

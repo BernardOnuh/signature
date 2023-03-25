@@ -27,8 +27,9 @@ const MyNFT = () =>  (
           Mint My idolo PFP  <br className="sm:block hidden" /> 
           as an NFT.
         </h2>
-        <img src='/040.jpg' alt="idolo" className="w-[60%] h-[60%] rounded-md" />
-  
+        <div className='border-cyan-400 rounded-md'>
+        <img src='/040.jpg' alt="idolo" className="w-[60%] h-[60%] rounded-md sm:w-[80%] sm:h-[80%]" />
+        </div>
         <Button />
       </div>
   

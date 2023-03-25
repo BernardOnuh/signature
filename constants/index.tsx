@@ -41,7 +41,7 @@ export const features = [
     id: "feature-2",
     icon: '/collection.png',
     title: "Check Out Collection",
-    href:'https://github.com/BernardOnuh/signature',
+    href:'https://testnets.opensea.io/collection/100daysofsolidity-2',
     content:
       "You can check opensea to see the NFTs that have been minted and are for sale.",
   },
